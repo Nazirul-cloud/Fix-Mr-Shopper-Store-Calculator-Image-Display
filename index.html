@@ -15,10 +15,35 @@
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500&display=swap" rel="stylesheet" />
+
+  <!-- Font Awesome -->
+  <script src="https://kit.fontawesome.com/996f7d3ed9.js" crossorigin="anonymous"></script>
 </head>
 
 <body>
-  <header></header>
+  <!-- Header Start -->
+      <header>
+        <nav class="navbar navbar-inverse alert-primary">
+            <div class="container">
+              <div class="row">
+                <div class="navbar-header col-lg-9">
+                  <a class="navbar-brand fw-bold" href="#">
+                    <i class="fas fa-cart-arrow-down"></i>
+                      Mr.Shopper</a>
+                </div>
+               <div class="col-lg-3">
+                <ul class="nav navbar-nav flex-row fw-bold">
+                  <li class="active mx-3"><a href="#">Home</a></li>
+                  <li><a class="text-decoration-none mx-2" href="#">Features</a></li>
+                  <li><a class="text-decoration-none mx-2" href="#">Contact</a></li>
+                </ul>
+               </div>
+              </div>
+            </div>
+          </nav>
+      </header>
+   <!-- Header Finish -->
+
   <main class="main">
     <div class="search-field">
       <div class="search-box">
@@ -32,7 +57,7 @@
     <div class="row">
       <div class="col-md-9 col-lg-9 col-sm-7">
         <div id="all-products" class="">
-          <h1></h1>
+          
         </div>
       </div>
       <div class="col-md-3 col-lg-3 col-sm-5 cart-main">
@@ -50,7 +75,7 @@
             <tbody>
               <tr>
                 <th>Total Added-Products:</th>
-                <td>$ <span id="total-Products">0</span></td>
+                <td><span id="total-Products">0</span></td>
                 <td></td>
                 <td></td>
               </tr>
